@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9175DA2B2147A452005E06FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9175DA2A2147A452005E06FB /* AppDelegate.m */; };
+		9175DA2E2147A452005E06FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9175DA2D2147A452005E06FB /* ViewController.m */; };
+		9175DA312147A452005E06FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9175DA2F2147A452005E06FB /* Main.storyboard */; };
+		9175DA332147A453005E06FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9175DA322147A453005E06FB /* Assets.xcassets */; };
+		9175DA362147A453005E06FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9175DA342147A453005E06FB /* LaunchScreen.storyboard */; };
+		9175DA392147A453005E06FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9175DA382147A453005E06FB /* main.m */; };
+		9175DA432147A454005E06FB /* CoreAnimation_ConvertPointAndRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9175DA422147A454005E06FB /* CoreAnimation_ConvertPointAndRectTests.m */; };
+		9175DA4E2147A454005E06FB /* CoreAnimation_ConvertPointAndRectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9175DA4D2147A454005E06FB /* CoreAnimation_ConvertPointAndRectUITests.m */; };
+		9175DA5D2147B249005E06FB /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9175DA5C2147B249005E06FB /* ModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9175DA3F2147A454005E06FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9175DA1E2147A452005E06FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9175DA252147A452005E06FB;
+			remoteInfo = "CoreAnimation-ConvertPointAndRect";
+		};
+		9175DA4A2147A454005E06FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9175DA1E2147A452005E06FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9175DA252147A452005E06FB;
+			remoteInfo = "CoreAnimation-ConvertPointAndRect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9175DA262147A452005E06FB /* CoreAnimation-ConvertPointAndRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreAnimation-ConvertPointAndRect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9175DA292147A452005E06FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9175DA2A2147A452005E06FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9175DA2C2147A452005E06FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9175DA2D2147A452005E06FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9175DA302147A452005E06FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9175DA322147A453005E06FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9175DA352147A453005E06FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9175DA372147A453005E06FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9175DA382147A453005E06FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9175DA3E2147A454005E06FB /* CoreAnimation-ConvertPointAndRectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreAnimation-ConvertPointAndRectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9175DA422147A454005E06FB /* CoreAnimation_ConvertPointAndRectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation_ConvertPointAndRectTests.m; sourceTree = "<group>"; };
+		9175DA442147A454005E06FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9175DA492147A454005E06FB /* CoreAnimation-ConvertPointAndRectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreAnimation-ConvertPointAndRectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9175DA4D2147A454005E06FB /* CoreAnimation_ConvertPointAndRectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation_ConvertPointAndRectUITests.m; sourceTree = "<group>"; };
+		9175DA4F2147A454005E06FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9175DA5B2147B249005E06FB /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		9175DA5C2147B249005E06FB /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9175DA232147A452005E06FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9175DA3B2147A454005E06FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9175DA462147A454005E06FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9175DA1D2147A452005E06FB = {
+			isa = PBXGroup;
+			children = (
+				9175DA282147A452005E06FB /* CoreAnimation-ConvertPointAndRect */,
+				9175DA412147A454005E06FB /* CoreAnimation-ConvertPointAndRectTests */,
+				9175DA4C2147A454005E06FB /* CoreAnimation-ConvertPointAndRectUITests */,
+				9175DA272147A452005E06FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9175DA272147A452005E06FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9175DA262147A452005E06FB /* CoreAnimation-ConvertPointAndRect.app */,
+				9175DA3E2147A454005E06FB /* CoreAnimation-ConvertPointAndRectTests.xctest */,
+				9175DA492147A454005E06FB /* CoreAnimation-ConvertPointAndRectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9175DA282147A452005E06FB /* CoreAnimation-ConvertPointAndRect */ = {
+			isa = PBXGroup;
+			children = (
+				9175DA292147A452005E06FB /* AppDelegate.h */,
+				9175DA2A2147A452005E06FB /* AppDelegate.m */,
+				9175DA2C2147A452005E06FB /* ViewController.h */,
+				9175DA2D2147A452005E06FB /* ViewController.m */,
+				9175DA2F2147A452005E06FB /* Main.storyboard */,
+				9175DA322147A453005E06FB /* Assets.xcassets */,
+				9175DA342147A453005E06FB /* LaunchScreen.storyboard */,
+				9175DA372147A453005E06FB /* Info.plist */,
+				9175DA382147A453005E06FB /* main.m */,
+				9175DA5B2147B249005E06FB /* ModalViewController.h */,
+				9175DA5C2147B249005E06FB /* ModalViewController.m */,
+			);
+			path = "CoreAnimation-ConvertPointAndRect";
+			sourceTree = "<group>";
+		};
+		9175DA412147A454005E06FB /* CoreAnimation-ConvertPointAndRectTests */ = {
+			isa = PBXGroup;
+			children = (
+				9175DA422147A454005E06FB /* CoreAnimation_ConvertPointAndRectTests.m */,
+				9175DA442147A454005E06FB /* Info.plist */,
+			);
+			path = "CoreAnimation-ConvertPointAndRectTests";
+			sourceTree = "<group>";
+		};
+		9175DA4C2147A454005E06FB /* CoreAnimation-ConvertPointAndRectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9175DA4D2147A454005E06FB /* CoreAnimation_ConvertPointAndRectUITests.m */,
+				9175DA4F2147A454005E06FB /* Info.plist */,
+			);
+			path = "CoreAnimation-ConvertPointAndRectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9175DA252147A452005E06FB /* CoreAnimation-ConvertPointAndRect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9175DA522147A454005E06FB /* Build configuration list for PBXNativeTarget "CoreAnimation-ConvertPointAndRect" */;
+			buildPhases = (
+				9175DA222147A452005E06FB /* Sources */,
+				9175DA232147A452005E06FB /* Frameworks */,
+				9175DA242147A452005E06FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreAnimation-ConvertPointAndRect";
+			productName = "CoreAnimation-ConvertPointAndRect";
+			productReference = 9175DA262147A452005E06FB /* CoreAnimation-ConvertPointAndRect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9175DA3D2147A454005E06FB /* CoreAnimation-ConvertPointAndRectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9175DA552147A454005E06FB /* Build configuration list for PBXNativeTarget "CoreAnimation-ConvertPointAndRectTests" */;
+			buildPhases = (
+				9175DA3A2147A454005E06FB /* Sources */,
+				9175DA3B2147A454005E06FB /* Frameworks */,
+				9175DA3C2147A454005E06FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9175DA402147A454005E06FB /* PBXTargetDependency */,
+			);
+			name = "CoreAnimation-ConvertPointAndRectTests";
+			productName = "CoreAnimation-ConvertPointAndRectTests";
+			productReference = 9175DA3E2147A454005E06FB /* CoreAnimation-ConvertPointAndRectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9175DA482147A454005E06FB /* CoreAnimation-ConvertPointAndRectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9175DA582147A454005E06FB /* Build configuration list for PBXNativeTarget "CoreAnimation-ConvertPointAndRectUITests" */;
+			buildPhases = (
+				9175DA452147A454005E06FB /* Sources */,
+				9175DA462147A454005E06FB /* Frameworks */,
+				9175DA472147A454005E06FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9175DA4B2147A454005E06FB /* PBXTargetDependency */,
+			);
+			name = "CoreAnimation-ConvertPointAndRectUITests";
+			productName = "CoreAnimation-ConvertPointAndRectUITests";
+			productReference = 9175DA492147A454005E06FB /* CoreAnimation-ConvertPointAndRectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9175DA1E2147A452005E06FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "张晓琪";
+				TargetAttributes = {
+					9175DA252147A452005E06FB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					9175DA3D2147A454005E06FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9175DA252147A452005E06FB;
+					};
+					9175DA482147A454005E06FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9175DA252147A452005E06FB;
+					};
+				};
+			};
+			buildConfigurationList = 9175DA212147A452005E06FB /* Build configuration list for PBXProject "CoreAnimation-ConvertPointAndRect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9175DA1D2147A452005E06FB;
+			productRefGroup = 9175DA272147A452005E06FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9175DA252147A452005E06FB /* CoreAnimation-ConvertPointAndRect */,
+				9175DA3D2147A454005E06FB /* CoreAnimation-ConvertPointAndRectTests */,
+				9175DA482147A454005E06FB /* CoreAnimation-ConvertPointAndRectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9175DA242147A452005E06FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9175DA362147A453005E06FB /* LaunchScreen.storyboard in Resources */,
+				9175DA332147A453005E06FB /* Assets.xcassets in Resources */,
+				9175DA312147A452005E06FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9175DA3C2147A454005E06FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9175DA472147A454005E06FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9175DA222147A452005E06FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9175DA5D2147B249005E06FB /* ModalViewController.m in Sources */,
+				9175DA2E2147A452005E06FB /* ViewController.m in Sources */,
+				9175DA392147A453005E06FB /* main.m in Sources */,
+				9175DA2B2147A452005E06FB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9175DA3A2147A454005E06FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9175DA432147A454005E06FB /* CoreAnimation_ConvertPointAndRectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9175DA452147A454005E06FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9175DA4E2147A454005E06FB /* CoreAnimation_ConvertPointAndRectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9175DA402147A454005E06FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9175DA252147A452005E06FB /* CoreAnimation-ConvertPointAndRect */;
+			targetProxy = 9175DA3F2147A454005E06FB /* PBXContainerItemProxy */;
+		};
+		9175DA4B2147A454005E06FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9175DA252147A452005E06FB /* CoreAnimation-ConvertPointAndRect */;
+			targetProxy = 9175DA4A2147A454005E06FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9175DA2F2147A452005E06FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9175DA302147A452005E06FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9175DA342147A453005E06FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9175DA352147A453005E06FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9175DA502147A454005E06FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9175DA512147A454005E06FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9175DA532147A454005E06FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CoreAnimation-ConvertPointAndRect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaoqi.zhang.CoreAnimation-ConvertPointAndRect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9175DA542147A454005E06FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CoreAnimation-ConvertPointAndRect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaoqi.zhang.CoreAnimation-ConvertPointAndRect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9175DA562147A454005E06FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CoreAnimation-ConvertPointAndRectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaoqi.zhang.CoreAnimation-ConvertPointAndRectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreAnimation-ConvertPointAndRect.app/CoreAnimation-ConvertPointAndRect";
+			};
+			name = Debug;
+		};
+		9175DA572147A454005E06FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CoreAnimation-ConvertPointAndRectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaoqi.zhang.CoreAnimation-ConvertPointAndRectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreAnimation-ConvertPointAndRect.app/CoreAnimation-ConvertPointAndRect";
+			};
+			name = Release;
+		};
+		9175DA592147A454005E06FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CoreAnimation-ConvertPointAndRectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaoqi.zhang.CoreAnimation-ConvertPointAndRectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoreAnimation-ConvertPointAndRect";
+			};
+			name = Debug;
+		};
+		9175DA5A2147A454005E06FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CoreAnimation-ConvertPointAndRectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaoqi.zhang.CoreAnimation-ConvertPointAndRectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoreAnimation-ConvertPointAndRect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9175DA212147A452005E06FB /* Build configuration list for PBXProject "CoreAnimation-ConvertPointAndRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9175DA502147A454005E06FB /* Debug */,
+				9175DA512147A454005E06FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9175DA522147A454005E06FB /* Build configuration list for PBXNativeTarget "CoreAnimation-ConvertPointAndRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9175DA532147A454005E06FB /* Debug */,
+				9175DA542147A454005E06FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9175DA552147A454005E06FB /* Build configuration list for PBXNativeTarget "CoreAnimation-ConvertPointAndRectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9175DA562147A454005E06FB /* Debug */,
+				9175DA572147A454005E06FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9175DA582147A454005E06FB /* Build configuration list for PBXNativeTarget "CoreAnimation-ConvertPointAndRectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9175DA592147A454005E06FB /* Debug */,
+				9175DA5A2147A454005E06FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9175DA1E2147A452005E06FB /* Project object */;
+}
